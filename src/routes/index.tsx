@@ -14,6 +14,15 @@ import { Footer } from "@/components/site/Footer";
 export const Route = createFileRoute("/")({
   component: Landing,
   head: () => ({
+    links: [
+      {
+        rel: "preload",
+        href: "/videos/hero-bg.mp4",
+        as: "video",
+        type: "video/mp4",
+        fetchPriority: "high",
+      },
+    ],
     meta: [
       { title: "SIMABEL Limited — Nigeria–UK Air Cargo & Procurement" },
       {
@@ -21,11 +30,13 @@ export const Route = createFileRoute("/")({
         content:
           "SIMABEL Limited handles cross-border procurement and air freight between Nigeria and the UK with reliable, transparent, end-to-end service.",
       },
-      { property: "og:title", content: "SIMABEL Limited — Your Trusted Air Cargo Link Between Nigeria and the UK" },
+      {
+        property: "og:title",
+        content: "SIMABEL Limited — Your Trusted Air Cargo Link Between Nigeria and the UK",
+      },
       {
         property: "og:description",
-        content:
-          "Cross-border procurement and air freight between Africa and the UK.",
+        content: "Cross-border procurement and air freight between Africa and the UK.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

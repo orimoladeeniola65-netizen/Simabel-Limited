@@ -45,30 +45,19 @@ export function Hero() {
           ref={parallaxRef}
           className="absolute inset-x-0 -top-[20%] -z-20 h-[130%] w-full will-change-transform"
         >
-          {isMobile ? (
-            <img
-              src={heroPoster}
-              alt="Cargo aircraft being loaded with crates at sunset"
-              width={1280}
-              height={576}
-              className="h-full w-full object-cover"
-              style={{ animation: "hero-media-breathe 26s ease-in-out infinite" }}
-            />
-          ) : (
-            <video
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="auto"
-              poster={heroPoster}
-              className="h-full w-full object-cover will-change-transform"
-              style={{ animation: "hero-media-breathe 26s ease-in-out infinite" }}
-            >
-              <source src="/videos/hero-bg.webm" type="video/webm" />
-              <source src="/videos/hero-bg.mp4" type="video/mp4" />
-            </video>
-          )}
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="auto"
+            poster={heroPoster}
+            className="h-full w-full object-cover will-change-transform"
+            style={{ animation: "hero-media-breathe 26s ease-in-out infinite" }}
+          >
+            <source src="/videos/hero-bg.webm" type="video/webm" />
+            <source src="/videos/hero-bg.mp4" type="video/mp4" />
+          </video>
         </div>
 
         {/* Dark gradient overlay — heavier bottom-left for legibility */}

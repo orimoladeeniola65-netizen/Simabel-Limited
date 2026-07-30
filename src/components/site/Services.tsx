@@ -26,7 +26,7 @@ const services = [
   {
     tag: "Doorstep",
     title: "Doorstep Delivery",
-    desc: "Final-mile delivery straight to your door, wherever you are in the UK.",
+    desc: "Final-mile delivery straight to your door, wherever you are in the UK, fast, tracked, and hassle-free, with real-time updates the whole way.",
     image: doorstepImg,
   },
 ] as const;
