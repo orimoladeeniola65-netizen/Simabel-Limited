@@ -5,7 +5,7 @@ const cols = [
   {
     title: "Services",
     links: [
-      "Air Freight Forwarding (Nigeria ⇄ UK)",
+      "Customs Brokerage (Africa ⇄ Europe)",
       "Procurement & Sourcing",
       "Customs Clearance",
       "Doorstep Delivery",

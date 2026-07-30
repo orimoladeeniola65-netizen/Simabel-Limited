@@ -89,9 +89,9 @@ export function Hero() {
               <br />
               and UK Customs
             </h1>
-            <p className="mt-6 max-w-md text-base leading-relaxed text-white/80 md:text-lg">
-              SIMABEL Limited handles global procurement and UK customs clearance for shipments from
-              China, Nigeria, and anywhere in the world.
+            <p className="mt-6 max-w-lg text-base leading-relaxed text-white/80 md:text-lg">
+              Procurement and customs clearance of shipments from China, Nigeria, Europe, the United
+              States, and any country into the UK, by air or by sea.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">

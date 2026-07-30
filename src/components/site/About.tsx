@@ -4,7 +4,6 @@ import { useIsMobile } from "@/hooks/use-mobile";
 import carton01 from "@/assets/cargo-cartons/carton-01.jpg";
 import carton02 from "@/assets/cargo-cartons/carton-02.jpg";
 import carton03 from "@/assets/cargo-cartons/carton-03.jpg";
-import carton04 from "@/assets/cargo-cartons/carton-04.jpg";
 import carton05 from "@/assets/cargo-cartons/carton-05.jpg";
 import carton06 from "@/assets/cargo-cartons/carton-06.jpg";
 import carton07 from "@/assets/cargo-cartons/carton-07.jpg";
@@ -22,7 +21,6 @@ const images = [
   carton01,
   carton02,
   carton03,
-  carton04,
   carton05,
   carton06,
   carton07,
@@ -74,8 +72,8 @@ export function About() {
               Built on Real Air Shipments, Not Just Promises.
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground md:text-lg">
-              We started SIMABEL to make cross-border air cargo simple and trustworthy, from Nigeria
-              to the UK, Europe, and beyond. Every carton below is proof of that promise.
+              We started SIMABEL Limited to make procurement easy and cross-border customs clearance
+              simple and trustworthy, from China, Africa, Europe, the US, and beyond.
             </p>
             <div className="mt-7 flex justify-center">
               <a

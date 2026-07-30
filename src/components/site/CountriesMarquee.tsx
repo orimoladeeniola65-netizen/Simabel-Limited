@@ -93,7 +93,7 @@ export function CountriesMarquee() {
                 Where We Fly
               </span>
               <h2 className="mt-5 text-3xl font-bold text-foreground sm:text-4xl md:text-5xl">
-                Countries We Send Cargo To
+                Countries We Send and Receive Cargo From
               </h2>
               <p className="mt-4 text-sm text-muted-foreground md:text-base">
                 Procurement and customs clearance for shipments from anywhere in the world,

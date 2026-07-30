@@ -6,9 +6,9 @@ import { Reveal } from "./Reveal";
 
 const services = [
   {
-    tag: "Every Friday",
-    title: "Air Cargo (Nigeria to UK)",
-    desc: "One of our established freight lanes: reliable weekly air cargo between Nigeria and the UK, departing every Friday with full tracking support.",
+    tag: "Cross-Border",
+    title: "Customs Brokerage (Africa to Europe)",
+    desc: "We clear shipments moving from Africa into Europe, handling documentation and duties so nothing gets delayed at the border.",
     image: airCargoImg,
   },
   {

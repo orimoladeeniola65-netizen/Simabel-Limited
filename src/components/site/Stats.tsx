@@ -1,7 +1,7 @@
 const stats = [
-  { value: "[PLACEHOLDER]", label: "Years serving the Nigeria–UK corridor" },
+  { value: "[PLACEHOLDER]", label: "Years in global procurement & customs clearance" },
   { value: "[PLACEHOLDER]", label: "Shipments delivered" },
-  { value: "NG ⇄ UK", label: "Dedicated trade lane" },
+  { value: "Global", label: "Countries served" },
   { value: "[PLACEHOLDER]", label: "Business & individual clients" },
 ];
 

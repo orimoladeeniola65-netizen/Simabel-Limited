@@ -31,7 +31,7 @@ export function CtaBanner() {
                 Get in touch today.
               </h2>
               <p className="mx-auto mt-5 max-w-xl text-base text-white/80 md:text-lg">
-                Tell us what you're flying between Nigeria and the UK. You'll get a clear quote and
+                Tell us what you need procured or cleared into the UK. You'll get a clear quote and
                 a named coordinator to see it through.
               </p>
               <div className="mt-8 flex flex-wrap items-center justify-center gap-3">

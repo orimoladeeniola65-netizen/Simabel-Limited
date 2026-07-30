@@ -6,8 +6,8 @@ import * as AccordionPrimitive from "@radix-ui/react-accordion";
 
 const faqs = [
   {
-    q: "When does cargo go out to the UK?",
-    a: "On our Nigeria-UK route, cargo departs every Friday, so you always know when your shipment is going out. For procurement and other routes, we'll confirm your specific timeline when you book.",
+    q: "Do you handle last-mile delivery after customs clearance?",
+    a: "Yes, we handle last-mile delivery for customers upon completion of customs clearance, across the United Kingdom and Europe.",
   },
   {
     q: "When does cargo go out to Nigeria?",
