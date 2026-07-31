@@ -10,8 +10,8 @@ const faqs = [
     a: "Yes, we handle last-mile delivery for customers upon completion of customs clearance, across the United Kingdom and Europe.",
   },
   {
-    q: "When does cargo go out to Nigeria?",
-    a: "On that same Nigeria-UK route, cargo also goes out from the UK every Friday, on the same weekly schedule.",
+    q: "What countries do you handle shipments from?",
+    a: "We handle procurement and customs clearance for shipments from China, Africa, Europe, the US, and virtually any country into the UK.",
   },
   {
     q: "Do you deliver to my doorstep?",
