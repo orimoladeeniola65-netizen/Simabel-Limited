@@ -1,4 +1,4 @@
-import { MapPin } from "lucide-react";
+import { MapPin, Phone } from "lucide-react";
 import logo from "@/assets/logo-white.png";
 
 const cols = [
@@ -44,6 +44,12 @@ export function Footer() {
                   <br />
                   CV1 2AQ, United Kingdom
                 </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <Phone className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
+                <a href="tel:+447918303088" className="transition-colors hover:text-accent">
+                  07918 303 088
+                </a>
               </li>
             </ul>
           </div>
