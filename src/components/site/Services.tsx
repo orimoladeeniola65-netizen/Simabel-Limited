@@ -87,8 +87,8 @@ export function Services() {
         </Reveal>
 
         <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {services.map((s) => (
-            <Reveal key={s.title}>
+          {services.map((s, i) => (
+            <Reveal key={s.title} delay={i * 100}>
               <ServiceCard {...s} />
             </Reveal>
           ))}
