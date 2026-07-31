@@ -3,7 +3,7 @@ import { Info } from "lucide-react";
 import { Reveal } from "./Reveal";
 
 const row1 = [
-  { name: "Nigeria", code: "NG" },
+  { name: "Africa", code: "", icon: "🌍" },
   { name: "United Kingdom", code: "GB" },
   { name: "China", code: "CN" },
   { name: "Germany", code: "DE" },
@@ -41,11 +41,11 @@ function flagEmoji(code: string) {
     .join("");
 }
 
-function Chip({ name, code }: { name: string; code: string }) {
+function Chip({ name, code, icon }: { name: string; code: string; icon?: string }) {
   return (
     <span className="mx-3 inline-flex shrink-0 items-center gap-3 rounded-2xl border border-border bg-surface px-7 py-3.5 text-base font-semibold text-foreground shadow-sm">
       <span className="text-2xl leading-none" aria-hidden>
-        {flagEmoji(code)}
+        {icon ?? flagEmoji(code)}
       </span>
       {name}
     </span>
@@ -57,7 +57,7 @@ function MarqueeRow({
   reverse = false,
   duration = 60,
 }: {
-  items: { name: string; code: string }[];
+  items: { name: string; code: string; icon?: string }[];
   reverse?: boolean;
   duration?: number;
 }) {
@@ -74,7 +74,7 @@ function MarqueeRow({
         onMouseLeave={(e) => (e.currentTarget.style.animationPlayState = "running")}
       >
         {doubled.map((c, i) => (
-          <Chip key={`${c.code}-${i}`} name={c.name} code={c.code} />
+          <Chip key={`${c.name}-${i}`} name={c.name} code={c.code} icon={c.icon} />
         ))}
       </div>
     </div>

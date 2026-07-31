@@ -33,8 +33,8 @@ export function Footer() {
               />
             </a>
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-white/70">
-              Global procurement and UK customs brokerage for shipments from China, Nigeria, and
-              anywhere in the world, handled end-to-end by one accountable team.
+              Global procurement and UK customs brokerage for shipments from China, Africa, Europe,
+              the US, and anywhere in the world, handled end-to-end by one accountable team.
             </p>
             <ul className="mt-6 space-y-2.5 text-sm">
               <li className="flex items-start gap-3">

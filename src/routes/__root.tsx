@@ -77,17 +77,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "SIMABEL Limited — Nigeria–UK Procurement & Freight Forwarding" },
+      { title: "SIMABEL Limited — Global Procurement & UK Customs Brokerage" },
       {
         name: "description",
         content:
-          "SIMABEL Limited handles cross-border procurement and freight forwarding between Nigeria and the UK.",
+          "SIMABEL Limited handles global procurement and customs clearance for shipments from Africa, China, Europe, the US, and anywhere in the world into the UK.",
       },
-      { property: "og:title", content: "SIMABEL Limited — Nigeria–UK Procurement & Freight" },
+      {
+        property: "og:title",
+        content: "SIMABEL Limited — Global Procurement & UK Customs Brokerage",
+      },
       {
         property: "og:description",
-        content:
-          "Cross-border procurement and freight forwarding between Africa and the UK.",
+        content: "Cross-border procurement and freight forwarding between Africa and the UK.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

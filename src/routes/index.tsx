@@ -24,19 +24,20 @@ export const Route = createFileRoute("/")({
       },
     ],
     meta: [
-      { title: "SIMABEL Limited — Nigeria–UK Air Cargo & Procurement" },
+      { title: "SIMABEL Limited — Global Procurement & UK Customs Brokerage" },
       {
         name: "description",
         content:
-          "SIMABEL Limited handles cross-border procurement and air freight between Nigeria and the UK with reliable, transparent, end-to-end service.",
+          "SIMABEL Limited handles global procurement and customs clearance for shipments from Africa, China, Europe, the US, and anywhere in the world into the UK.",
       },
       {
         property: "og:title",
-        content: "SIMABEL Limited — Your Trusted Air Cargo Link Between Nigeria and the UK",
+        content: "SIMABEL Limited — Your Global Partner for Procurement and UK Customs",
       },
       {
         property: "og:description",
-        content: "Cross-border procurement and air freight between Africa and the UK.",
+        content:
+          "Global procurement and customs clearance for shipments from anywhere in the world into the UK.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

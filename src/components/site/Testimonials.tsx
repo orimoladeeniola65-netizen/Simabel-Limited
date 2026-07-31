@@ -13,7 +13,7 @@ const quotes = [
     avatar: avatar1,
   },
   {
-    text: "SIMABEL handled the procurement and air freight for my boutique's stock from Nigeria. Smooth process, clear communication throughout.",
+    text: "SIMABEL handled the procurement and air freight for my boutique's stock from Africa. Smooth process, clear communication throughout.",
     name: "Chidinma Okoro",
     role: "Founder, Lagos Threads Boutique",
     avatar: avatar3,

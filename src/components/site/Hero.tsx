@@ -90,7 +90,7 @@ export function Hero() {
               and UK Customs
             </h1>
             <p className="mt-6 max-w-lg text-base leading-relaxed text-white/80 md:text-lg">
-              Procurement and customs clearance of shipments from China, Nigeria, Europe, the United
+              Procurement and customs clearance of shipments from China, Africa, Europe, the United
               States, and any country into the UK, by air or by sea.
             </p>
 

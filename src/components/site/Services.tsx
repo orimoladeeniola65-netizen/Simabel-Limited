@@ -14,7 +14,7 @@ const services = [
   {
     tag: "Global Sourcing",
     title: "Procurement & Sourcing",
-    desc: "The core of what we do: sourcing and consolidating goods on your behalf from China, Nigeria, or anywhere else in the world.",
+    desc: "The core of what we do: sourcing and consolidating goods on your behalf from China, Africa, or anywhere else in the world.",
     image: warehouseImg,
   },
   {
