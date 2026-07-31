@@ -43,7 +43,7 @@ function ServiceCard({
   image: string;
 }) {
   return (
-    <article className="mx-3 flex h-full w-[340px] shrink-0 flex-col overflow-hidden rounded-3xl bg-white shadow-sm sm:w-[380px] md:w-[420px]">
+    <article className="flex h-full flex-col overflow-hidden rounded-3xl bg-white shadow-sm">
       <div className="p-3 pb-0">
         <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
           <img
@@ -69,11 +69,8 @@ function ServiceCard({
 }
 
 export function Services() {
-  const doubled = [...services, ...services];
-
   return (
     <section id="services" className="relative bg-[#F7F7F5] py-20 md:py-28">
-      <style>{`@keyframes services-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }`}</style>
       <div className="container-page">
         <Reveal>
           <div className="mx-auto max-w-2xl text-center">
@@ -89,17 +86,12 @@ export function Services() {
           </div>
         </Reveal>
 
-        <div className="marquee-mask group relative mt-14 overflow-hidden">
-          <div
-            className="flex w-max items-stretch py-2"
-            style={{ animation: `services-scroll 75s linear infinite` }}
-            onMouseEnter={(e) => (e.currentTarget.style.animationPlayState = "paused")}
-            onMouseLeave={(e) => (e.currentTarget.style.animationPlayState = "running")}
-          >
-            {doubled.map((s, i) => (
-              <ServiceCard key={`${s.title}-${i}`} {...s} />
-            ))}
-          </div>
+        <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {services.map((s) => (
+            <Reveal key={s.title}>
+              <ServiceCard {...s} />
+            </Reveal>
+          ))}
         </div>
       </div>
     </section>
