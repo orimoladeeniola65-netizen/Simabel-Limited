@@ -7,8 +7,8 @@ import { Reveal } from "./Reveal";
 const services = [
   {
     tag: "Cross-Border",
-    title: "Customs Brokerage (Africa to Europe)",
-    desc: "We clear shipments moving from Africa into Europe, handling documentation and duties so nothing gets delayed at the border.",
+    title: "Customs Brokerage (Global to UK)",
+    desc: "We clear shipments moving from Africa, Asia, the US, and many more into the United Kingdom, handling documentation and duties so nothing gets delayed at the border.",
     image: airCargoImg,
   },
   {
